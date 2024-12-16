@@ -1,0 +1,15 @@
+{
+    "Age": 67,
+    "Sex": 0,
+    "ChestPainType": 0,
+    "RestingBP": 106,
+    "Cholesterol": 223,
+    "FastingBS": 0,
+    "RestingECG": 1,
+    "MaxHR": 142,
+    "ExerciseAngina": 0,
+    "Oldpeak": 0.3,
+    "ST_Slope": 2,
+    "NumMajorVessels": 2,
+    "Thal": 2
+}
