@@ -2,6 +2,7 @@ import joblib
 from format.messageform import InputForm
 
 class APIService:
+    
     def predict(userInput: InputForm):
         try:
             # model = joblib.load('models/heart_disease_classification_model.pkl') # Load the model
@@ -27,14 +28,14 @@ class APIService:
             
             prediction = model.predict([features])[0]
             
-            # if prediction == 0:
-            #     return False
-            # else:
-            #     return True
+            if prediction == 0:
+                return False
+            else:
+                return True
 
             # return prediction == 0 ? False : True
 
-            return False if prediction == 0 else True
+            # return False if prediction == 0 else True
 
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
